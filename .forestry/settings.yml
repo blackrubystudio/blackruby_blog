@@ -17,6 +17,6 @@ use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_command: vuepress build -d docs/.vuepress/dist
-  publish_command: vuepress build -d .vuepress/dist
+  publish_command: vuepress build -d docs/.vuepress/dist
   preview_output_directory: docs./.vuepress/dist
-  output_directory: ".vuepress/dist"
+  output_directory: docs/.vuepress/dist
