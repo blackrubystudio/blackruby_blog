@@ -3,7 +3,13 @@ new_page_extension: md
 auto_deploy: false
 admin_path: 
 webhook_url: 
-sections: 
+sections:
+- type: heading
+  label: 스타트업
+- type: heading
+  label: 주간 스터디
+- type: heading
+  label: 스타트업 이야기
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
